@@ -11,7 +11,8 @@ int main(int argc, char** argv){
   int fd = open(argv[1], O_RDONLY);
   struct input_event ev;
 
-  sleep(1);
+  sleep(1);//to prevent seeing the release of the enter key
+  
   while(1){
     while(read(fd,&ev,sizeof(struct input_event))!=-1){
       printf("\n%i\n%i\n%i\n",ev.type,ev.value,ev.code);
