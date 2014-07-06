@@ -7,11 +7,7 @@
 #include<unistd.h>
 #include<math.h>
 
-
-
 void simKey(int,char,__u16);
-
-
 
 int main(int argc, char** argv){
   int fd = open(argv[1], O_RDONLY);
