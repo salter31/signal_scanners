@@ -1,3 +1,9 @@
+/*
+    written by Jason Salter
+    Processes every button press on a ps4 controller
+    Barebones driver
+*/
+
 #include<stdio.h>
 #include<linux/input.h>
 #include<linux/types.h>
@@ -135,7 +141,6 @@ int main(int argc, char** argv){
             printf("Left Stick (%d,%d)\n",xR,yR);
           } 
         }
-
 
       }else {
         //4 is default signal
