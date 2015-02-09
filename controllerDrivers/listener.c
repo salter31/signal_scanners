@@ -7,6 +7,8 @@
 #include<unistd.h>
 #include<math.h>
 
+//added comment
+
 int main(int argc, char** argv){
   if(argc!=2){
     printf("args: /dev/input/WAHTEVERDISCRIPTOR\n");
