@@ -10,7 +10,7 @@
 //added comment
 //new branch2 comment
 
-
+//the best commit of all time
 int main(int argc, char** argv){
   if(argc!=2){
     printf("args: /dev/input/WAHTEVERDISCRIPTOR\n");
